@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Locator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="landing">
+            <div class="logo landingleft">
+                <p>Share Life,<br> Share <span>Blood</span> </p>
+                <p class="subtext" style="font-size: 16px;">An initiative to connect blood donors and recipients in a safe and effective way.</p>
+                <div>
+                    <button class="btn1">Donate Blood</button><button class="btn2">Locate Hospital</button>
+                </div>
+            </div>
+            <div class=" landingright">
+                <div style="height: 400px; border-radius: 50px; margin-right: 50px;">            <img src="./public/happy.jpg" alt="hand" srcset="" class="handimg">
+                </div>
+            </div>
+        
+    </div>
+    <h1>Please pick your blood type and enter your details to find a nearby hospital</h1>
+
+
+    <div class="blood-types-container">
+        
+    </div>
+    <div class="search-container" >
+        <img src="./public/bhand.png" alt="" srcset="">
+        <form id="searchForm">
+        <label>Name:</label>
+        <input type="text" id="name" required>
+        <label>Age:</label>
+        <input type="number" id="age" required>
+        <label>Address:</label>
+        <input type="text" id="address" required>
+        <label>Blood Type:</label>
+        <input type="text" id="blood_type" required>
+        <label>Location:</label>
+        <input type="text" id="location" required>
+        <button type="submit" class="btn1">Search</button>
+    </form></div>
+    <h2>Available Hospitals</h2>
+    <ul id="results"></ul>
+    <script src="service.js">
+        console.log("Hello World");
+    </script>
+</body>
+</html>

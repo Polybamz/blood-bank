@@ -1,0 +1,14 @@
+{
+  "name": "blood_bank",
+  "version": "1.0.0",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bamz"
+  ],
+  "author": "bamz",
+  "license": "ISC",
+  "description": ""
+}
