@@ -11,6 +11,7 @@
 </head>
 <body>
     <header>
+        <img src="./public/logo.png" alt="logo" srcset="" style="height: 90px;">
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -18,8 +19,11 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
+        <div>
+            <button class="btn1">Donate Blood</button><button class="btn2">Locate Hospital</button>
+        </div>
     </header>
-    <div class="landing">
+    <div class="landing scroll-animation">
             <div class="logo landingleft">
                 <p>Share Life,<br> Share <span>Blood</span> </p>
                 <p class="subtext" style="font-size: 16px;">An initiative to connect blood donors and recipients in a safe and effective way.</p>
@@ -33,14 +37,17 @@
             </div>
         
     </div>
-    <h1>Please pick your blood type and enter your details to find a nearby hospital</h1>
+<div class="askpatient scroll-animation">
+    <h1 class="gradient-text">Please pick your blood type and enter your details to find a nearby hospital</h1>
 
+</div>
 
-    <div class="blood-types-container">
+    <div class="blood-types-container scroll-animation">
         
     </div>
-    <div class="search-container" >
-        <img src="./public/bhand.png" alt="" srcset="">
+    <div class="divider scroll-animation"></div>
+    <div class="search-container scroll-animation" >
+        <img src="./public/bhand.png" alt="" srcset="" class="blooddrop">
         <form id="searchForm">
         <label>Name:</label>
         <input type="text" id="name" required>
@@ -53,11 +60,18 @@
         <label>Location:</label>
         <input type="text" id="location" required>
         <button type="submit" class="btn1">Search</button>
-    </form></div>
-    <h2>Available Hospitals</h2>
+    </form>
+   <!-- <div class="map"></div> -->
+</div>
+<div class="divider scroll-animation"></div>
+    <h2 class="scroll-animation">Available Hospitals</h2>
     <ul id="results"></ul>
+<footer class="scroll-animation" style="width: 100%; height: 200px; background-color: aquamarine;"></footer>
     <script src="service.js">
         console.log("Hello World");
     </script>
+    <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
 </body>
 </html>

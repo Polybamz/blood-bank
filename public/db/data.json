@@ -1,0 +1,92 @@
+{  
+  "hospitals": [  
+    {  
+      "name": "Yaoundé Central Hospital",  
+      "address": "Rue de l'Université, Yaoundé, Cameroon",  
+      "coordinates": {  
+        "latitude": 3.848,  
+        "longitude": 11.502  
+      }  
+    },  
+    {  
+      "name": "Douala General Hospital",  
+      "address": "Avenue des Générales, Douala, Cameroon",  
+      "coordinates": {  
+        "latitude": 4.051,  
+        "longitude": 9.708  
+      }  
+    },  
+    {  
+      "name": "Buea Regional Hospital",  
+      "address": "Buea, South-West Region, Cameroon",  
+      "coordinates": {  
+        "latitude": 4.167,  
+        "longitude": 9.698  
+      }  
+    },  
+    {  
+      "name": "Garoua Regional Hospital",  
+      "address": "Garoua, North Region, Cameroon",  
+      "coordinates": {  
+        "latitude": 9.304,  
+        "longitude": 13.398  
+      }  
+    },  
+    {  
+      "name": "Yaoundé Blood Transfusion Centre",  
+      "address": "Avenue de la République, Yaoundé, Cameroon",  
+      "coordinates": {  
+        "latitude": 3.866,  
+        "longitude": 11.510  
+      }  
+    },  
+    {  
+      "name": "Bafoussam Regional Hospital",  
+      "address": "Bafoussam, West Region, Cameroon",  
+      "coordinates": {  
+        "latitude": 5.965,  
+        "longitude": 10.164  
+      }  
+    },  
+    {  
+      "name": "Region Hospital of Limbe",  
+      "address": "Limbe, South-West Region, Cameroon",  
+      "coordinates": {  
+        "latitude": 4.015,  
+        "longitude": 9.238  
+      }  
+    },  
+    {  
+      "name": "Nkongsamba District Hospital",  
+      "address": "Nkongsamba, Littoral Region, Cameroon",  
+      "coordinates": {  
+        "latitude": 4.951,  
+        "longitude": 9.725  
+      }  
+    },  
+    {  
+      "name": "Kumbo District Hospital",  
+      "address": "Kumbo, North-West Region, Cameroon",  
+      "coordinates": {  
+        "latitude": 5.973,  
+        "longitude": 10.159  
+      }  
+    },  
+    {  
+      "name": "Maroua Regional Hospital",  
+      "address": "Maroua, Far North Region, Cameroon",  
+      "coordinates": {  
+        "latitude": 10.593,  
+        "longitude": 14.319  
+      }  
+    },  
+    {  
+      "name": "Duala Women’s Hospital",  
+      "address": "Boulevard de la République, Douala, Cameroon",  
+      "coordinates": {  
+        "latitude": 4.052,  
+        "longitude": 9.710  
+      }  
+    }  
+  ]  
+}
